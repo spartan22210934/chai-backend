@@ -2,10 +2,17 @@
   "name": "chai-backend",
   "version": "1.0.0",
   "description": "learning from youtube",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "author": "krushnav parbat",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "chai-backend": "file:"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
 }
