@@ -10,9 +10,13 @@
   "author": "krushnav parbat",
   "license": "ISC",
   "dependencies": {
-    "chai-backend": "file:"
+    "chai-backend": "file:",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.15.1"
   },
   "devDependencies": {
-    "nodemon": "^3.1.10"
+    "nodemon": "^3.1.10",
+    "prettier": "^3.5.3"
   }
 }
